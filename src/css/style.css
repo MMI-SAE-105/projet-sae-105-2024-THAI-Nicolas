@@ -1,4 +1,16 @@
 /* ==============================
+   Les Polices
+   ============================== */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Hanleth Sans Vintage';
+    src: url('/assets/fonts/Hanleth\ sans\ vintage.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ==============================
    Vendors (Bibliothèques externes)
    ============================== */
 @import 'vendors/normalize.css';
@@ -23,3 +35,7 @@
    ============================== */
 @import 'components/menu.css';
 @import 'components/section.css';
+
+p {
+    font-family: Raleway, sans-serif;
+}
