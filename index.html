@@ -10,77 +10,336 @@
 </head>
 
 <body>
-    <header class="header">
+    <section class="section section__hero">
 
-        <div class="header__start">
-            <a class="header__start--logolink" href="/index.html" aria-label="Accéder à la page d'accueil">
-                <img class="header__start--logoimg" src="/assets/icones/logo-caves-cleaner.webp"
-                    alt="Logo CavesCleaner">
-            </a>
-        </div>
+        <header class="header">
 
-        <div class="header__end">
-            <button class="header__end--langbtn" aria-expanded="false" aria-label="Changer la langue"
-                aria-controls="langNav">
-                <div>Langue</div>
-                <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
-                    aria-label="Mettre la langue en français">
-            </button>
-            <nav class="lang" id="langNav">
-                <ul>
-                    <li class="lang__item">
-                        <a class="lang__link" href="">Français</a>
-                        <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
-                            aria-label="Mettre la langue en français">
-                    </li>
-                    <li class="lang__item">
-                        <a class="lang__link" href="">Anglais</a>
-                        <img class="lang__flag-img" src="/assets/icones/english-flag.webp" alt="Drapeau Anglais"
-                            aria-label="Mettre la langue en anglais">
-                    </li>
-                </ul>
+            <div class="header__start">
+                <a class="header__start--logolink" href="/index.html" aria-label="Accéder à la page d'accueil">
+                    <img class="header__start--logoimg" src="/assets/icones/logo-caves-cleaner.webp"
+                        alt="Logo CavesCleaner">
+                </a>
+            </div>
 
-            </nav>
-
-
-            <button class="header__end--menubtn" aria-expanded="false" aria-label="Accéder au menu principal"
-                aria-controls="mainNav">
-                Menu
-            </button>
-            <nav class="menu" id="mainNav">
-                <button class="menu__closebtn" aria-expanded="false" aria-label="Fermer le menu">
-                    Fermer
+            <div class="header__end">
+                <button class="header__end--langbtn" aria-expanded="false" aria-label="Changer la langue"
+                    aria-controls="langNav">
+                    <div>Langue</div>
+                    <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
+                        aria-label="Mettre la langue en français">
                 </button>
-                <ul>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/aspirateur-prehistorique.html">L'aspirateur Préhistorique</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/page-wall-e.html">Le Robot Déserteur</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/page-steven-spielberg.html">Steven Spielberg</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/page-machine-du-temps.html">La machine du temps</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/page-the-robots.html">La Symphonie Robotique</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/page-contact.html">Contact</a>
-                    </li>
-                    <li class="menu__item">
-                        <a class="menu__link" href="/fr/page-glossaire.html">Glossaire</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="lang" id="langNav">
+                    <ul>
+                        <li class="lang__item">
+                            <a class="lang__link" href="">Français</a>
+                            <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
+                                aria-label="Mettre la langue en français">
+                        </li>
+                        <li class="lang__item">
+                            <a class="lang__link" href="">Anglais</a>
+                            <img class="lang__flag-img" src="/assets/icones/english-flag.webp" alt="Drapeau Anglais"
+                                aria-label="Mettre la langue en anglais">
+                        </li>
+                    </ul>
+
+                </nav>
+
+
+                <button class="header__end--menubtn" aria-expanded="false" aria-label="Accéder au menu principal"
+                    aria-controls="mainNav">
+                    Menu
+                </button>
+                <nav class="menu" id="mainNav">
+                    <button class="menu__closebtn" aria-expanded="false" aria-label="Fermer le menu">
+                        Fermer
+                    </button>
+                    <ul>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/aspirateur-prehistorique.html">L'aspirateur
+                                Préhistorique</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/page-wall-e.html">Le Robot Déserteur</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/page-steven-spielberg.html">Steven Spielberg</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/page-machine-du-temps.html">La machine du temps</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/page-the-robots.html">La Symphonie Robotique</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/page-contact.html">Contact</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="/fr/page-glossaire.html">Glossaire</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <h1 class="section__hero--title">THE <br> CAVES <br> CLEANER</h1>
+        <p class="section__hero--question">Que se passerait-il si un robot aspirateur existait dans la Préhistoire ?</p>
+        <div class="button__position-center">
+            <a class="button section__hero--btn" href="#intro">Découvrir</a>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="main__intro__container">
+
+            <section class="section section__intro">
+
+                <header class="section__header">
+                    <h2 class="section__intro--title">The CavesCleaner</h2>
+                </header>
+
+                <div class="intro__left" id="intro">
+                    <p class="main__intro__text">Imaginez un monde où un robot aspirateur se fraye un chemin à travers
+                        les
+                        cavernes et les paysages primitifs.
+                    </p>
+                    <a class="button button__intro" href="/fr/aspirateur-prehistorique.html">Lire maintenant</a>
+                </div>
+
+                <div class="intro__right">
+                    <img class="intro__velociraptor" src="/assets/icones/velociraptor.webp" alt="Vélociraptor qui vole "
+                        aria-hidden="true">
+                </div>
+
+            </section>
+
+            <section class="section section__intro">
+
+                <header class="section__header">
+                    <h2 class="section__intro--title">Plongez-vous dans un récit
+                        alternatif prenant</h2>
+                </header>
+
+                <div class="intro__left">
+                    <img class="intro__mamooth" src="/assets/icones/mamooth.webp" alt="Mamooth qui est très content"
+                        aria-hidden="true">
+                </div>
+                <div class="intro__right">
+                    <p class="main__intro__text">Une série de 5 articles au cœur du sujet pour explorer les multiples
+                        facettes de l'impact du robot aspirateur sur la
+                        Préhistoire
+                    </p>
+                    <a class="button button__intro" href="#">Voir les articles</a>
+                </div>
+
+            </section>
         </div>
 
+        <section class="section section__articles">
 
-    </header>
+            <header class="section__header">
+                <h2 class="section__header--title"></h2>
+            </header>
 
-    <main>
+            <article class="article__container-home">
+                <h3 class="article__title-home">Le Robot Préhistorique</h3>
+                <p class="article__description-home">Imaginez un robot aspirateur dans un campement préhistorique : une
+                    rencontre qui suscite incompréhension et
+                    émerveillement, interrogeant notre rapport à la technologie dès les origines de l'humanité.</p>
+                <div class="button__position-center">
+                    <a class="button article-btn-home" href="">Lire l'article</a>
+                </div>
+            </article>
+
+            <article class="article__container-home">
+                <h3 class="article__title-home title__left-position">Wall-E : Le déserteur</h3>
+                <p class="article__description-home desc__left-position">Dans l'univers émouvant de Wall-E, un robot de
+                    nettoyage erre sur
+                    une Terre ravagée, incarnant solitude et quête de
+                    sens. Il évoque un robot aspirateur préhistorique et questionne notre relation aux machines et à
+                    l’environnement.</p>
+                <div class="button__position-center">
+                    <a class="button article-btn-home" href="">Lire l'article</a>
+                </div>
+            </article>
+
+            <article class="article__container-home">
+                <h3 class="article__title-home">Steven Spielberg : Le visionnaire</h3>
+                <p class="article__description-home">Steven Spielberg, visionnaire du cinéma, fusionne passé et futur
+                    dans des œuvres comme Jurassic Park, où dinosaures et
+                    technologie se rencontrent. Ses films offrent une réflexion profonde sur notre place dans le monde.
+                </p>
+                <div class="button__position-center">
+                    <a class="button article-btn-home" href="">Lire l'article</a>
+                </div>
+            </article>
+
+            <article class="article__container-home">
+                <h3 class="article__title-home title__left-position">La Machine du Temps</h3>
+                <p class="article__description-home desc__left-position">La Machine à Explorer le Temps de H.G. Wells
+                    dépasse la simple
+                    science-fiction. À travers le voyage d'un scientifique,
+                    le roman explore les conséquences de nos choix sur l'avenir et invite à réfléchir à notre rapport à
+                    la technologie et à
+                    son impact sur notre destin.</p>
+                <div class="button__position-center">
+                    <a class="button article-btn-home" href="">Lire l'article</a>
+                </div>
+            </article>
+
+            <article class="article__container-home">
+                <h3 class="article__title-home">La Symphonie Robotique</h3>
+                <p class="article__description-home">The Robots de Kraftwerk célèbre la technologie et l'automatisation
+                    avec une créativité unique. Ce morceau
+                    révolutionnaire a profondément influencé la musique électronique moderne tout en questionnant notre
+                    relation aux
+                    machines.</p>
+                <div class="button__position-center">
+                    <a class="button article-btn-home" href="">Lire l'article</a>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="section section__about">
+            <header class="section__header">
+                <h2 class="section__header--title">Qui suis-je ?</h2>
+            </header>
+            <div class="about__intro--container">
+                <div class="about__intro--left">
+                    <p class="about__intro--presentation">Moi c'est Nico !</p>
+                    <p class="about__intro--presentation">J’ai 19 ans et je
+                        suis un étudiant
+                        en 1ère année
+                        de MMI à
+                        Montbéliard.</p>
+                </div>
+                <div class="about__intro--right">
+                    <img src="/assets/icones/avatar.webp" alt="Avatar de Nicolas THAI, le créateur du site"
+                        aria-hidden="true">
+                </div>
+            </div>
+            <p class="about__text">Je réalise ce projet dans un
+                cadre universitaire sur le
+                thème “Préhistoire du futur”.</p>
+            <p class="about__text">Tu peux aussi me retrouver sur
+                mes réseaux sociaux, n'hésite
+                pas à me contactez pour
+                le moindre service !</p>
+
+            <ul class="about__social-list">
+                <li class="about__social--item">
+                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Linkedin">
+                        <img class="about__social--link" src="/assets/icones/linkedin.webp" alt="Icone Linkedin">
+                    </a>
+                </li>
+                <li class="about__social--item">
+                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Instagram">
+                        <img class="about__social--link" src="/assets/icones/instagram.webp" alt="Icône Instagram">
+                    </a>
+                </li>
+                <li class="about__social--item">
+                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Tiktok">
+                        <img class="about__social--link" src="/assets/icones/tiktok.webp" alt="Icône TikTok">
+                    </a>
+                </li>
+                <li class="about__social--item">
+                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Discord">
+                        <img class="about__social--link" src="/assets/icones/discord.webp" alt="Icône Discord">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section section__autres-projets">
+            <header class="section__header">
+                <h2 class="section__header--title">Autres projets</h2>
+            </header>
+            <p>Retrouve dans cette section des projets uniques et aussi intéressant les un que les autres ! </p>
+            <p>Bonne lecture !</p>
+
+            <article class="autres-projets__container">
+                <a class="autres-projets__container--link" href="" aria-controls="Accéder au projet">
+                    <div class="autres-projets__header">
+                        <div class="autres-projets__header--left">
+                            <img class="autres-projets__header--avatar" src="" alt="Avatar de ">
+                        </div>
+                        <div class="autres-projets__header--right">
+                            <p class="autres-projets__header--name">Andréa MESTRE</p>
+                            <p class="autres-projets__header--nickname">La Chasseuse de Pierres</p>
+
+                        </div>
+                    </div>
+                    <div class="autres-projets__content">
+                        <img class="autres-projets__content-img" src="" alt="Image du site">
+                        <h3 class="autres-projets__content-title"></h3>
+
+                    </div>
+                </a>
+            </article>
+
+            <article class="autres-projets__container">
+                <a class="autres-projets__container--link" href="" aria-controls="Accéder au projet">
+                    <div class="autres-projets__header">
+                        <div class="autres-projets__header--left">
+                            <img class="autres-projets__header--avatar" src="" alt="Avatar de ">
+                        </div>
+                        <div class="autres-projets__header--right">
+                            <p class="autres-projets__header--name"></p>
+                            <p class="autres-projets__header--nickname"></p>
+
+                        </div>
+                    </div>
+                    <div class="autres-projets__content">
+                        <img class="autres-projets__content-img" src="" alt="Image du site">
+                        <h3 class="autres-projets__content-title"></h3>
+
+                    </div>
+                </a>
+            </article>
+
+            <div class="autres-projets__arrows">
+                <button class="autres-projets__left-arrow">
+                    <img class="autres_projets__arrow--img" src="/assets/icones/lance.webp"
+                        alt="Lance tournée vers la gauche" aria-label="Voir le projet précédent">
+                </button>
+                <button class="autres-projets__right-arrow">
+                    <img class="autres_projets__arrow--img" src="/assets/icones/lance.webp"
+                        alt="Lance tournée vers la droite" aria-controls="Voir le projet suivant">
+                </button>
+            </div>
+
+            <article class="autres-projets__container">
+                <a class="autres-projets__container--link" href="" aria-controls="Accéder au projet">
+                    <div class="autres-projets__header">
+                        <div class="autres-projets__header--left">
+                            <img class="autres-projets__header--avatar" src="" alt="Avatar de ">
+                        </div>
+                        <div class="autres-projets__header--right">
+                            <p class="autres-projets__header--name"></p>
+                            <p class="autres-projets__header--nickname"></p>
+
+                        </div>
+                    </div>
+                    <div class="autres-projets__content">
+                        <img class="autres-projets__content-img" src="" alt="Image du site">
+                        <h3 class="autres-projets__content-title"></h3>
+
+                    </div>
+                </a>
+            </article>
+
+            <div class="autres-projets__arrows">
+                <button class="autres-projets__left-arrow">
+                    <img class="autres_projets__arrow--img" src="/assets/icones/lance.webp"
+                        alt="Lance tournée vers la gauche" aria-label="Voir le projet précédent">
+                </button>
+                <button class="autres-projets__right-arrow">
+                    <img class="autres_projets__arrow--img" src="/assets/icones/lance.webp"
+                        alt="Lance tournée vers la droite" aria-controls="Voir le projet suivant">
+                </button>
+            </div>
+
+        </section>
     </main>
 
     <footer>

@@ -1,10 +1,8 @@
-button {
+button,
+.button {
     font-family: var(--font-family-text);
     font-size: var(--font-size-button);
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 32px;
     background-color: var(--brown);
     color: var(--white);
@@ -13,6 +11,12 @@ button {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
     letter-spacing: 2px;
     border: none;
+}
+
+.button__position-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__end--menubtn {
@@ -28,4 +32,7 @@ button {
     box-shadow: none;
     color: black;
     font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
