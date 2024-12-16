@@ -1,0 +1,41 @@
+:root {
+    /* ==============================
+   Colors
+   ============================== */
+    --brown: #8C7851;
+    --dark-brown: #716040;
+    --white: #F5F5F5;
+    --soft-white: #F8F8F0;
+    --background: #F9F4EF;
+    --secondary: #EADDCF;
+    --black: #000000;
+
+
+    /* ==============================
+   Typography
+   ============================== */
+    --font-family-home-title: 'Hanleth Sans Vintage', serif;
+    --font-family-text: 'Raleway', sans-serif;
+    --font-family-flint: 'Flintstone', sans-serif;
+    /* ==============================
+   Tailles
+   ============================== */
+    --font-size-xxs: 10 px;
+    --font-size-button: 12 px;
+    --font-size-body: 15 px;
+    --font-size-chapo: 18 px;
+    --font-size-l: 36 px;
+    --font-size-title: 48 px;
+    --font-size-footer: 16 px;
+    --font-size-intro: 16 px;
+    --font-size-header: 13 px;
+
+
+    /* ==============================
+   Espacements
+   ============================== */
+    --space-xs: 8px;
+    --space-s: 16px;
+    --space-m: 32px;
+    --space-l: 64px;
+}
