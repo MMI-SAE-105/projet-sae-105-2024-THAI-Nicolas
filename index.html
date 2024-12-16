@@ -6,10 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CavesCleaner</title>
     <link rel="stylesheet" href="/src/css/style.css">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
-    <p>Salut à tous les amis</p>
+    <header class="header">
+
+        <div class="header__start">
+            <a class="header__start--logolink" href="/index.html" aria-label="Accéder à la page d'accueil">
+                <img class="header__start--logoimg" src="/assets/icones/logo-caves-cleaner.webp"
+                    alt="Logo CavesCleaner">
+            </a>
+        </div>
+
+        <div class="header__end">
+            <button class="header__end--langbtn" aria-expanded="false" aria-label="Changer la langue"
+                aria-controls="langNav">
+                <div>Langue</div>
+                <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
+                    aria-label="Mettre la langue en français">
+            </button>
+            <nav class="lang" id="langNav">
+                <ul>
+                    <li class="lang__item">
+                        <a class="lang__link" href="">Français</a>
+                        <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
+                            aria-label="Mettre la langue en français">
+                    </li>
+                    <li class="lang__item">
+                        <a class="lang__link" href="">Anglais</a>
+                        <img class="lang__flag-img" src="/assets/icones/english-flag.webp" alt="Drapeau Anglais"
+                            aria-label="Mettre la langue en anglais">
+                    </li>
+                </ul>
+
+            </nav>
+
+
+            <button class="header__end--menubtn" aria-expanded="false" aria-label="Accéder au menu principal"
+                aria-controls="mainNav">
+                Menu
+            </button>
+            <nav class="menu" id="mainNav">
+                <button class="menu__closebtn" aria-expanded="false" aria-label="Fermer le menu">
+                    Fermer
+                </button>
+                <ul>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/aspirateur-prehistorique.html">L'aspirateur Préhistorique</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/page-wall-e.html">Le Robot Déserteur</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/page-steven-spielberg.html">Steven Spielberg</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/page-machine-du-temps.html">La machine du temps</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/page-the-robots.html">La Symphonie Robotique</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/page-contact.html">Contact</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="/fr/page-glossaire.html">Glossaire</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>

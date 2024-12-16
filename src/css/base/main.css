@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family-text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+ul {
+    list-style-type: none;
+}

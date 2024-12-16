@@ -3,12 +3,6 @@
    ============================== */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: 'Hanleth Sans Vintage';
-    src: url('/assets/fonts/Hanleth\ sans\ vintage.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* ==============================
    Vendors (Bibliothèques externes)
@@ -18,7 +12,7 @@
 /* ==============================
    Utils (Outils et fonctions utilitaires)
    ============================== */
-@import 'utils/variables.css';
+@import 'utils/variable.css';
 /* ==============================
    Base (Styles de base)
    ============================== */
@@ -27,15 +21,11 @@
 /* ==============================
    Layouts (Mise en page)
    ============================== */
-@import 'layout/header.css';
-@import 'layout/footer.css';
-@import 'layout/hero.css';
+@import "/src/css/layout/header.css";
 /* ==============================
    Components (Composants)
    ============================== */
 @import 'components/menu.css';
 @import 'components/section.css';
-
-p {
-    font-family: Raleway, sans-serif;
-}
+@import 'components/langue.css';
+@import 'components/button.css';

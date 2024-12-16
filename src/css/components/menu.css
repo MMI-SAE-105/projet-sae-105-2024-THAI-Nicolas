@@ -1,0 +1,17 @@
+.menu {
+    visibility: hidden;
+    position: fixed;
+    background-color: var(--brown);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.menu[aria-hidden="false"] {
+    visibility: visible;
+}
+
+.noscroll {
+    overflow: hidden;
+}

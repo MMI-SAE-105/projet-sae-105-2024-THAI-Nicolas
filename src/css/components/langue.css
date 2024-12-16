@@ -1,0 +1,14 @@
+.lang {
+    visibility: hidden;
+    position: fixed;
+    top: 70px;
+    margin-left: 12px;
+}
+
+.lang[aria-hidden="false"] {
+    visibility: visible;
+}
+
+.noscroll {
+    overflow: hidden;
+}
