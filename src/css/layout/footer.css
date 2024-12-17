@@ -2,6 +2,7 @@
     background-color: var(--brown);
     color: var(--white);
     margin-top: 80px;
+    padding-bottom: 20px;
 }
 
 .footer__item {
@@ -62,4 +63,6 @@
 .footer__logo-mmi--img {
     width: 50px;
     position: relative;
+    right: -330px;
+    top: 10px;
 }
