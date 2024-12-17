@@ -1,0 +1,30 @@
+.form__search-img {
+    width: 20px;
+}
+
+.form__search-button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    position: relative;
+    top: 44px;
+    left: 65px;
+}
+
+.form__search-bar {
+    width: 200px;
+    border-radius: 32px;
+    border: 1px solid var(--brown);
+    background: transparent;
+    padding: 12px 20px;
+    font-family: var(--font-family-text);
+    font-size: 20px;
+    padding-left: 60px;
+    color: var(--black);
+}
+
+.form__position-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
