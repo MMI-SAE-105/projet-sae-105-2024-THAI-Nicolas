@@ -22,6 +22,7 @@
    Layouts (Mise en page)
    ============================== */
 @import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
 /* ==============================
    Components (Composants)
    ============================== */
