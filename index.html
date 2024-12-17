@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CavesCleaner</title>
-    <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             <div class="header__end">
                 <button class="header__end--langbtn" aria-expanded="false" aria-label="Changer la langue"
                     aria-controls="langNav">
-                    <div>Langue</div>
+                    Langue
                     <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
                         aria-label="Mettre la langue en français">
                 </button>
@@ -137,7 +137,7 @@
         <section class="section section__articles">
 
             <header class="section__header">
-                <h2 class="section__header--title"></h2>
+                <h2 class="section__header--title">Les Articles</h2>
             </header>
 
             <article class="article__container-home">
@@ -214,8 +214,8 @@
                         Montbéliard.</p>
                 </div>
                 <div class="about__intro--right">
-                    <img src="/assets/icones/avatar.webp" alt="Avatar de Nicolas THAI, le créateur du site"
-                        aria-hidden="true">
+                    <img class="about__intro-avatar" src="/assets/icones/avatar.webp"
+                        alt="Avatar de Nicolas THAI, le créateur du site" aria-hidden="true">
                 </div>
             </div>
             <p class="about__text">Je réalise ce projet dans un
@@ -228,22 +228,22 @@
 
             <ul class="about__social-list">
                 <li class="about__social--item">
-                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Linkedin">
+                    <a class="about__social--link" href="" aria-label="Suivez-nous sur Linkedin">
                         <img class="about__social--link" src="/assets/icones/linkedin.webp" alt="Icone Linkedin">
                     </a>
                 </li>
                 <li class="about__social--item">
-                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Instagram">
+                    <a class="about__social--link" href="" aria-label="Suivez-nous sur Instagram">
                         <img class="about__social--link" src="/assets/icones/instagram.webp" alt="Icône Instagram">
                     </a>
                 </li>
                 <li class="about__social--item">
-                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Tiktok">
+                    <a class="about__social--link" href="" aria-label="Suivez-nous sur Tiktok">
                         <img class="about__social--link" src="/assets/icones/tiktok.webp" alt="Icône TikTok">
                     </a>
                 </li>
                 <li class="about__social--item">
-                    <a class="about__social--link" href="" aria-controls="Suivez-nous sur Discord">
+                    <a class="about__social--link" href="" aria-label="Suivez-nous sur Discord">
                         <img class="about__social--link" src="/assets/icones/discord.webp" alt="Icône Discord">
                     </a>
                 </li>
@@ -257,45 +257,134 @@
             <p>Retrouve dans cette section des projets uniques et aussi intéressant les un que les autres ! </p>
             <p>Bonne lecture !</p>
 
-            <article class="autres-projets__container">
-                <a class="autres-projets__container--link" href="" aria-controls="Accéder au projet">
-                    <div class="autres-projets__header">
-                        <div class="autres-projets__header--left">
-                            <img class="autres-projets__header--avatar" src="" alt="Avatar de ">
+            <div class="autres-projets__flexbox">
+
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Andréa Mestre">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-andrea.webp"
+                                    alt="Avatar de Andréa">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Andréa MESTRE</p>
+                                <p class="autres-projets__header--nickname">La Chasseuse de Pierres</p>
+
+                            </div>
                         </div>
-                        <div class="autres-projets__header--right">
-                            <p class="autres-projets__header--name">Andréa MESTRE</p>
-                            <p class="autres-projets__header--nickname">La Chasseuse de Pierres</p>
-
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-andrea.webp"
+                                alt="Image du site de Andréa Mestre">
+                            <h3 class="autres-projets__content-title andrea-title">La console</h3>
                         </div>
-                    </div>
-                    <div class="autres-projets__content">
-                        <img class="autres-projets__content-img" src="" alt="Image du site">
-                        <h3 class="autres-projets__content-title"></h3>
+                    </a>
+                </article>
 
-                    </div>
-                </a>
-            </article>
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Noah Rognon">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-noah.webp"
+                                    alt="Avatar de Noah Rognon">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Noah ROGNON</p>
+                                <p class="autres-projets__header--nickname">Le Briseur de Crânes</p>
 
-            <article class="autres-projets__container">
-                <a class="autres-projets__container--link" href="" aria-controls="Accéder au projet">
-                    <div class="autres-projets__header">
-                        <div class="autres-projets__header--left">
-                            <img class="autres-projets__header--avatar" src="" alt="Avatar de ">
+                            </div>
                         </div>
-                        <div class="autres-projets__header--right">
-                            <p class="autres-projets__header--name"></p>
-                            <p class="autres-projets__header--nickname"></p>
-
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-noah.webp"
+                                alt="Image du site de Noah Rognon">
+                            <h3 class="autres-projets__content-title noah-title">L'Ere des protheses</h3>
                         </div>
-                    </div>
-                    <div class="autres-projets__content">
-                        <img class="autres-projets__content-img" src="" alt="Image du site">
-                        <h3 class="autres-projets__content-title"></h3>
+                    </a>
+                </article>
 
-                    </div>
-                </a>
-            </article>
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Bryan Thierry">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-bryan.webp"
+                                    alt="Avatar de Bryan Thierry">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Bryan THIERRY</p>
+                                <p class="autres-projets__header--nickname">Le Faucon de la Falaise</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-bryan.webp"
+                                alt="Image du site de Bryan Thierry">
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Ethan Touitou">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-ethan.webp"
+                                    alt="Avatar de Ethan Touitou ">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Ethan TOUITOU</p>
+                                <p class="autres-projets__header--nickname">Le Dévoreur de Bêtes</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-ethan.webp"
+                                alt="Image du site de Ethan Touitou">
+                            <h3 class="autres-projets__content-title ethan-title">Echos of AI</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Arthur Wicky">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-arthur.webp"
+                                    alt="Avatar de Arthur Wicky">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Arthur WICKY</p>
+                                <p class="autres-projets__header--nickname">Le Chasseur de Griffes</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-arthur.webp"
+                                alt="Image du site de Arthur Wicky">
+                            <h3 class="autres-projets__content-title arthur-title">Neuromni-link</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Gautier VICAT">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-gautier.webp"
+                                    alt="Avatar de Gautier VICAT">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Gautier VICAT</p>
+                                <p class="autres-projets__header--nickname">Le Chasseur d'Ombres</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-gautier.webp"
+                                alt="Image du site de Gautier Vicat">
+                            <h3 class="autres-projets__content-title gautier-title">Pulse</h3>
+                        </div>
+                    </a>
+                </article>
+            </div>
 
             <div class="autres-projets__arrows">
                 <button class="autres-projets__left-arrow">
@@ -304,29 +393,119 @@
                 </button>
                 <button class="autres-projets__right-arrow">
                     <img class="autres_projets__arrow--img" src="/assets/icones/lance.webp"
-                        alt="Lance tournée vers la droite" aria-controls="Voir le projet suivant">
+                        alt="Lance tournée vers la droite" aria-label="Voir le projet suivant">
                 </button>
             </div>
 
-            <article class="autres-projets__container">
-                <a class="autres-projets__container--link" href="" aria-controls="Accéder au projet">
-                    <div class="autres-projets__header">
-                        <div class="autres-projets__header--left">
-                            <img class="autres-projets__header--avatar" src="" alt="Avatar de ">
-                        </div>
-                        <div class="autres-projets__header--right">
-                            <p class="autres-projets__header--name"></p>
-                            <p class="autres-projets__header--nickname"></p>
+            <div class="autres-projets__flexbox">
 
-                        </div>
-                    </div>
-                    <div class="autres-projets__content">
-                        <img class="autres-projets__content-img" src="" alt="Image du site">
-                        <h3 class="autres-projets__content-title"></h3>
 
-                    </div>
-                </a>
-            </article>
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Juan VELOZA">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-juan.webp"
+                                    alt="Avatar de Juan VELOZA">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Juan VELOZA</p>
+                                <p class="autres-projets__header--nickname">Le Lanceur de Roches</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-juan.webp"
+                                alt="Image du site de Juan VELOZA-ARCILA">
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Titouan Winkel">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-titouan.webp"
+                                    alt="Avatar de Titouan Winkel">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Titouan WINKEL</p>
+                                <p class="autres-projets__header--nickname">Le Guerrier Assoiffé</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-titouan.webp"
+                                alt="Image du site de Titouan Winkel">
+                            <h3 class="autres-projets__content-title titouan-title">Futurbanisme</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Antonin Woziak">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-antonin.webp"
+                                    alt="Avatar de Antonin Wozniak">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Antonin WOZNIAK</p>
+                                <p class="autres-projets__header--nickname">Le Fendeur d'Os</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-antonin.webp"
+                                alt="Image du site de Antonin Woziak">
+                            <h3 class="autres-projets__content-title antonin-title">Chainmaster</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de François Yang">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-francois.webp"
+                                    alt="Avatar de François Yang">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">François YANG</p>
+                                <p class="autres-projets__header--nickname">Le Défenseur de la Grotte</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-francois.webp"
+                                alt="Image du site de François YANG">
+                            <h3 class="autres-projets__content-title francois-title">L'heritier de la protection</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="autres-projets__container">
+                    <a class="autres-projets__container--link" href="" aria-label="Accéder au projet de Paolo VINCENT">
+                        <div class="autres-projets__header">
+                            <div class="autres-projets__header--left">
+                                <img class="autres-projets__header--avatar" src="/assets/img/avatar-paolo.webp"
+                                    alt="Avatar de Paolo Vincent">
+                            </div>
+                            <div class="autres-projets__header--right">
+                                <p class="autres-projets__header--name">Paolo VINCENT</p>
+                                <p class="autres-projets__header--nickname">le Lanceur d'Eclairs</p>
+
+                            </div>
+                        </div>
+                        <div class="autres-projets__content">
+                            <img class="autres-projets__content-img" src="/assets/img/img-paolo.webp"
+                                alt="Image du site de Paolo Vincent">
+                            <h3 class="autres-projets__content-title paolo-title">Arceve</h3>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+
 
             <div class="autres-projets__arrows">
                 <button class="autres-projets__left-arrow">
@@ -335,7 +514,7 @@
                 </button>
                 <button class="autres-projets__right-arrow">
                     <img class="autres_projets__arrow--img" src="/assets/icones/lance.webp"
-                        alt="Lance tournée vers la droite" aria-controls="Voir le projet suivant">
+                        alt="Lance tournée vers la droite" aria-label="Voir le projet suivant">
                 </button>
             </div>
 

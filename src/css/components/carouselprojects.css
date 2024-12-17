@@ -1,0 +1,107 @@
+.autres-projets__flexbox {
+    margin-top: 100px;
+}
+
+.autres-projets__container {
+    width: 290px;
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.autres-projets__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--brown);
+    color: var(--white);
+    width: 290px;
+}
+
+.autres-projets__header--left {
+    margin-left: 20px;
+}
+
+.autres-projets__header--avatar {
+    width: 50px;
+}
+
+.autres-projets__header--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.autres-projets__header--name {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.autres-projets__header--nickname {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+
+.autres-projets__content-img {
+    width: 290px;
+    height: 166px;
+}
+
+.autres-projets__content-title {
+    position: relative;
+    font-size: 20px;
+    font-family: Flintstone;
+    top: -120px;
+}
+
+.andrea-title {
+    top: -80px;
+    left: 100px;
+    color: white;
+    font-size: 16px;
+}
+
+.noah-title {
+    left: 40px;
+}
+
+.ethan-title {
+    left: 80px;
+    color: white;
+}
+
+.arthur-title {
+    left: 70px;
+}
+
+.gautier-title {
+    left: 115px;
+}
+
+.titouan-title {
+    left: 80px;
+    color: white;
+}
+
+.antonin-title {
+    left: 85px;
+    color: white;
+}
+
+.francois-title {
+    left: 3px;
+    color: white;
+}
+
+.paolo-title {
+    left: 110px;
+    color: white;
+}
