@@ -1,0 +1,32 @@
+.formulaire__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    background-color: var(--secondary);
+    border-radius: 16px;
+    padding: 25px 25px;
+}
+
+.formulaire__contact label {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formulaire__contact input,
+.formulaire__contact textarea {
+    font-family: Raleway;
+    font-size: 12px;
+    background-color: transparent;
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: var(--white);
+}
+
+.formulaire__contact textarea {
+    height: 100px;
+}
