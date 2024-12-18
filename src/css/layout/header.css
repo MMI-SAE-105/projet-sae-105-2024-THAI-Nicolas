@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-top: 15px;
 }
 
 .headerbar {

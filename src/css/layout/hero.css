@@ -1,0 +1,31 @@
+.section__hero {
+    background-image: url(/assets/img/hero-img.webp);
+    background-size: cover;
+    height: 730px;
+}
+
+.section__hero--title {
+    margin-top: 20px;
+    font-size: 65px;
+    text-align: center;
+}
+
+.the {
+    font-size: 28px;
+}
+
+.caves {
+    font-size: 76px;
+}
+
+.section__hero--question {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-text-stroke: 1px var(--brown);
+    margin-bottom: 100px;
+}

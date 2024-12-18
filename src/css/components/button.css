@@ -7,11 +7,15 @@ button,
     background-color: var(--brown);
     color: var(--white);
     font-weight: 700;
-    padding: 6px 12px;
+    padding: 8px 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     border: none;
+    line-height: normal;
+    font-style: normal;
+    transition: all 0.15s;
 }
+
 
 .button__position-center {
     display: flex;
@@ -21,18 +25,59 @@ button,
 
 .header__end--menubtn {
     border: none;
-    background-color: var(--black);
+    background-color: var(--brown);
     font-family: Montserrat;
     padding: 8px 8px;
+}
+
+.header__end--menubtn:hover {
+    background-color: var(--white);
+    color: var(--brown);
 }
 
 .header__end--langbtn {
     border: none;
     background-color: transparent;
     box-shadow: none;
-    color: black;
+    color: white;
     font-family: Montserrat;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: underline 1s;
+}
+
+.header__end--langbtn:hover {
+    text-decoration: underline;
+}
+
+.section__hero--btn {
+    background-color: white;
+    color: var(--black);
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 750;
+    border-radius: 38px;
+    transition: all 0.15s;
+}
+
+.section__hero--btn:hover {
+    background-color: var(--black);
+    color: white;
+}
+
+.button__intro {
+    font-weight: 600;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.article-btn-home {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 9px;
+}
+
+.article-btn-home:hover {
+    background-color: white;
+    color: var(--black);
 }

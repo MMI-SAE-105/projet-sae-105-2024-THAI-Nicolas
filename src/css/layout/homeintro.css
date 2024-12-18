@@ -1,0 +1,63 @@
+.section__intro {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 40px;
+}
+
+.intro__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.intro__container:first-child {
+    margin-bottom: 40px;
+}
+
+.section__intro--title {
+    font-size: 20px;
+    font-weight: 750;
+    text-align: center;
+    width: 262px;
+
+}
+
+.main__intro-text {
+    font-size: var(--font-size-intro);
+    width: 260px;
+    text-align: center;
+}
+
+.intro__velociraptor {
+    width: 120px;
+}
+
+.intro__mamooth {
+    position: relative;
+    width: 120px;
+}
+
+.first__intro-title {
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+
+.second__intro-title {
+    position: relative;
+    top: 15px;
+    left: 110px;
+}
+
+.button__intro-left {
+    position: relative;
+    top: 10px;
+    right: -35px;
+}
+
+.button__intro-right {
+    position: relative;
+    top: 10px;
+    right: -35px;
+}

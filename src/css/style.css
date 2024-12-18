@@ -23,6 +23,8 @@
    ============================== */
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/footer.css";
+@import "/src/css/layout/hero.css";
+@import "/src/css/layout/homeintro.css";
 /* ==============================
    Components (Composants)
    ============================== */
@@ -33,3 +35,4 @@
 @import 'components/carouselprojects.css';
 @import 'components/formulairecontact.css';
 @import 'components/glossairesearchbar.css';
+@import 'components/homearticles.css';

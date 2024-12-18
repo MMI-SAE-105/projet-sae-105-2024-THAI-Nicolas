@@ -1,0 +1,41 @@
+.article__container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 292px;
+}
+
+.article__container-home:nth-child(2) {
+    background-image: url(/assets/img/dark-caves-cleaner.webp);
+}
+
+.article__container-home:nth-child(4) {
+    background-image: url(/assets/img/dark-steven-spielberg.webp);
+}
+
+.article__container-home:nth-child(6) {
+    background-image: url(/assets/img/dark-the-robots.webp);
+}
+
+.article__title-home {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.article__description-home {
+    font-family: Montserrat;
+    color: white;
+    width: 290px;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
