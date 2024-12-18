@@ -1,0 +1,42 @@
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section__hero,
+.section__articles,
+.section__intro--page-article {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section__about {
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.section__autres-projets {
+    background-color: var(--secondary);
+    color: var(--black);
+}
+
+.section__intro--page-article {
+    background-size: cover;
+    height: 571px;
+    color: white;
+}
+
+.section__intro--robot-article {
+    background-image: url(/assets/img/caves-cleaner.webp);
+}
+
+.section__intro--walle-article {
+    background-image: url(/assets/img/wall-e.webp);
+}
+
+.section__intro--spielberg-article {
+    background-image: url(/assets/img/steven-spielberg.webp);
+    color: black;
+}
+
+.section__intro---article {}
