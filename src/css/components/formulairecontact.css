@@ -4,29 +4,49 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     background-color: var(--secondary);
     border-radius: 16px;
     padding: 25px 25px;
+}
+
+.case__formulaire {
+    display: flex;
+    gap: 20px;
 }
 
 .formulaire__contact label {
     font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
+    color: var(--brown);
 }
 
 .formulaire__contact input,
 .formulaire__contact textarea {
     font-family: Raleway;
-    font-size: 12px;
+    font-size: 13px;
     background-color: transparent;
-    border: solid 1px gray;
-    border-radius: 4px;
-    padding: 6px 12px;
-    color: var(--white);
+    border: solid 1px var(--brown);
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: rgb(118, 118, 118);
 }
 
 .formulaire__contact textarea {
     height: 100px;
+}
+
+.envoyer-btn {
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-left: 230px;
+    margin-bottom: 75px;
+}
+
+.message {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 50px;
 }

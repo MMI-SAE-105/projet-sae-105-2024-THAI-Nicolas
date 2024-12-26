@@ -1,0 +1,57 @@
+.contact__coordonnees-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact__coordonnees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.main-contact__title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    color: var(--brown);
+    padding: 0;
+    margin: 10px;
+}
+
+.contact__coordonnees:first-of-type .info__link {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.info__link {
+    width: 175px;
+    height: 70px;
+    padding-inline: 12px;
+    margin-top: 20px;
+    font-size: 12px;
+    background-color: var(--brown);
+    color: var(--white);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-contact__icon {
+    width: 40px;
+}
+
+.contact__social-media-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.social-media__img {
+    width: 40px;
+}

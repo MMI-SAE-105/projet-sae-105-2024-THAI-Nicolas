@@ -25,8 +25,9 @@
     font-weight: 700;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .article__description-home {
@@ -36,7 +37,7 @@
     font-size: 11px;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .article__container-home-side {
@@ -87,7 +88,7 @@
     margin-top: 5px;
 }
 
-.article-btn-home {
+.article-btn-home-side {
     margin-left: 24px;
     margin-top: 30px;
     margin-bottom: 20px;
