@@ -10,14 +10,23 @@ section {
     padding-right: 0;
 }
 
+.section__article-presentation {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .section__about {
     background-color: var(--brown);
     color: var(--white);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 
 .section__autres-projets {
     background-color: var(--secondary);
     color: var(--black);
+    padding-top: 30px;
 }
 
 .section__intro--page-article {
@@ -38,5 +47,3 @@ section {
     background-image: url(/assets/img/steven-spielberg.webp);
     color: black;
 }
-
-.section__intro---article {}

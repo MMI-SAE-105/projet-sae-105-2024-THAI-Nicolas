@@ -27,6 +27,7 @@
     font-size: var(--font-size-intro);
     width: 260px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .intro__velociraptor {

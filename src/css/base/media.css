@@ -1,7 +1,49 @@
 .about__intro-avatar {
-    width: 50px;
+    width: 150px;
 }
 
 .intro__author-img {
-    width: 40px;
+    width: 30px;
+}
+
+.autres-projets__arrow--img {
+    width: 130px;
+}
+
+.autres-projets__left-arrow {
+    rotate: 180deg;
+}
+
+
+.introduction__legende-img,
+.article__figure-img {
+    width: 300px;
+    object-fit: cover;
+    margin-top: 11px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+
+.article__side-img {
+    width: 105px;
+}
+
+.article__img-chasse {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.article__img-dodo {
+    width: 90px;
+}
+
+.article__img-famille {
+    width: 120px;
+}
+
+.img__position-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

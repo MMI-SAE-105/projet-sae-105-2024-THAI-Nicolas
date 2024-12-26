@@ -14,6 +14,12 @@ body {
     background-color: var(--background);
 }
 
+p {
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-text);
+    font-weight: 300px;
+    margin: 0;
+}
 
 a {
     text-decoration: none;
@@ -46,4 +52,148 @@ h3 {
 
 .section__header--title {
     margin: 0;
+}
+
+.section__article-title {
+    font-size: 17px;
+    font-weight: 600px;
+    color: var(--dark-brown);
+}
+
+.article__texte-center {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.article__conclusion {
+    font-weight: 400;
+    color: var(--dark-brown);
+}
+
+.section__intro--date {
+    font-size: 16px;
+    margin-bottom: 180px;
+}
+
+.intro__author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.intro__author-name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.introduction__chapo {
+    color: var(--dark-brown);
+    font-size: 18px;
+    padding-top: 40px;
+    margin: 0;
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.introdution__title {
+    text-align: center;
+    font-size: 24px;
+    color: var(--dark-brown);
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+.introduction__legende-author,
+.introduction__legende-date,
+.introduction__legende-legende {
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 3px;
+
+}
+
+.introduction__legende-legende {
+    text-align: center;
+    font-size: 14px;
+    width: 285px;
+    margin: 0 auto;
+    color: var(--dark-brown);
+}
+
+.about__intro--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.about__intro--presentation {
+    font-size: 20px;
+    width: 150px;
+}
+
+.about__text {
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 288px;
+}
+
+.about__social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.about__social--img {
+    width: 24px;
+}
+
+.title__autres-projets {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section__autres-projets-intro {
+    text-align: center;
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.container__texte-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article__side-texte {
+    width: 250px;
+}
+
+.article__figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.article__figure-figcaption {
+    font-size: 14px;
+    font-style: italic;
+    width: 280px;
+    text-align: center;
 }

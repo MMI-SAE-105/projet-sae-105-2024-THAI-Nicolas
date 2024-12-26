@@ -23,6 +23,12 @@ button,
     align-items: center;
 }
 
+.button__position-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 .header__end--menubtn {
     border: none;
     background-color: var(--brown);
@@ -80,4 +86,10 @@ button,
 .article-btn-home:hover {
     background-color: white;
     color: var(--black);
+}
+
+.autres-projets__arrow {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
 }
