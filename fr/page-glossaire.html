@@ -25,8 +25,8 @@
             </div>
 
             <div class="header__end">
-                <button class="header__end--langbtn" aria-expanded="false" aria-label="Changer la langue"
-                    aria-controls="langNav">
+                <button class="header__end--langbtn langbtn-changecolours" aria-expanded="false"
+                    aria-label="Changer la langue" aria-controls="langNav">
                     Langue
                     <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
                         aria-label="Mettre la langue en français">
@@ -88,14 +88,15 @@
         <main class="main">
             <h1 class="main__title">Glossaire</h1>
             <form class="search-form" action="/search" method="get" role="search">
-                <button class="form__search-button" type="submit">
-                    <img class="form__search-img" src="/assets/icones/search.webp" alt="Loupe de recherche"
-                        aria-label="Rechercher un mot dans le glossaire">
-                </button>
+
                 <div class="form__position-center">
                     <input class="form__search-bar" type="text" placeholder="Rechercher un mot..."
                         aria-label="Rechercher un mot dans le glossaire">
                 </div>
+                <button class="form__search-button" type="submit">
+                    <img class="form__search-img" src="/assets/icones/search.webp" alt="Loupe de recherche"
+                        aria-label="Rechercher un mot dans le glossaire">
+                </button>
             </form>
 
             <section class="section section__glossaire">
@@ -131,8 +132,8 @@
             </div>
             <div class="glossaire__pagination--container">
                 <span class="glossaire__pagination glossaire__pagination--main">1</span>
-                <p class="glossaire__pagination">2</p>
-                <p class="glossaire__pagination">3</p>
+                <a class="glossaire__pagination" href="/fr/page2-glossaire.html">2</a>
+                <a class="glossaire__pagination" href="/fr/page3-glossaire.html">3</a>
             </div>
         </main>
 

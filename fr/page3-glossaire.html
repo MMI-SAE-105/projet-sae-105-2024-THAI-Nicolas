@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Glossaire</title>
     <script type="module" src="/src/js/script.js"></script>
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/android-chrome-192x192.png">
@@ -86,95 +86,53 @@
         </header>
 
         <main class="main">
-            <h1 class="main__title">Contact</h1>
+            <h1 class="main__title">Glossaire</h1>
+            <form class="search-form" action="/search" method="get" role="search">
 
-            <div class="section contact__coordonnees-container">
-
-                <div class="contact__coordonnees">
-                    <img class="main-contact__icon" src="/assets/icones/location.webp" alt="Icone de localisation"
-                        aria-hidden="true">
-                    <h3 class="main-contact__title">Adresse</h3>
-                    <a class="info__link" href="" aria-label="Ouvrir l'adresse sur Maps">8 Rue Henri Mouhot,
-                        25200 Montbéliard</a>
+                <div class="form__position-center">
+                    <input class="form__search-bar" type="text" placeholder="Rechercher un mot..."
+                        aria-label="Rechercher un mot dans le glossaire">
                 </div>
+                <button class="form__search-button" type="submit">
+                    <img class="form__search-img" src="/assets/icones/search.webp" alt="Loupe de recherche"
+                        aria-label="Rechercher un mot dans le glossaire">
+                </button>
+            </form>
 
-                <div class="contact__coordonnees">
-                    <img class="main-contact__icon" src="/assets/icones/mail.webp" alt="Icone d'email"
-                        aria-hidden="true">
-                    <h3 class="main-contact__title">E-mail</h3>
-                    <a class="info__link" href=""
-                        aria-label="M'envoyer un message par e-mail">nicolas.thai@edu.univ-fcomte.fr</a>
-                </div>
-
-                <div class="contact__coordonnees">
-                    <img class="main-contact__icon" src="/assets/icones/phone.webp" alt="Icone de téléphone"
-                        aria-hidden="true">
-                    <h3 class="main-contact__title">Téléphone</h3>
-                    <a class="info__link" href="" aria-label="M'envoyez un message par numéro de téléphone">06
-                        63 39 75 01</a>
-                </div>
-
-
-            </div>
-
-            <section class="section section__social-media">
+            <section class="section section__glossaire">
                 <header class="section__header">
-                    <h2 class="section__header--title">
-                        Mes reseaux sociaux
-                    </h2>
+                    <h2 class="section__glossaire--title">Définitions &#40;A &#8722; Z&#41;</h2>
+                    <span class="section__glossaire--bar"></span>
                 </header>
-
-                <div class="contact__social-media-container">
-                    <a class="social-media__link" href="">
-                        <img class="social-media__img" src="/assets/icones/linkedin.webp" alt="Icone Linkedin"
-                            aria-label="Suivez-moi sur LinkedIn">
-                    </a>
-
-                    <a class="social-media__link" href="">
-                        <img class="social-media__img" src="/assets/icones/instagram.webp" alt="Icone Instagram"
-                            aria-label="Suivez-moi sur Instagram">
-                    </a>
-
-                    <a class="social-media__link" href="">
-                        <img class="social-media__img" src="/assets/icones/tiktok.webp" alt="Icone Tiktok"
-                            aria-label="Suivez-moi sur TikTok">
-                    </a>
-                </div>
             </section>
+
+            <div class="glossaire__container">
+                <div class="glossaire__item">
+                    <h3 class="glossaire__item-title">Offrandes</h3>
+                    <p class="glossaire__item-text">Présentations de biens ou de services en hommage à une divinité,
+                        dans le but d'obtenir sa faveur ou en signe de
+                        gratitude.</p>
+                </div>
+                <span class="glossaire__item--separator"></span>
+
+                <div class="glossaire__item">
+                    <h3 class="glossaire__item-title">Préhistoire</h3>
+                    <p class="glossaire__item-text">Période de l'histoire humaine avant l'invention de l'écriture,
+                        caractérisée par le développement des sociétés humaines
+                        et des cultures.</p>
+                </div>
+                <span class="glossaire__item--separator"></span>
+
+            </div>
+            <div class="glossaire__pagination--container">
+                <a class="glossaire__pagination" href="/fr/page-glossaire.html">1</a>
+                <a class="glossaire__pagination" href="/fr/page2-glossaire.html">2</a>
+                <span class="glossaire__pagination glossaire__pagination--main">3</span>
+
+            </div>
+        </main>
+
     </div>
-
-    <section class="section section__contact">
-        <header class="section__header">
-            <h2 class="section__header--title">Formulaire</h2>
-        </header>
-
-        <form class="formulaire__contact" action="/" method="post">
-            <div class="case__formulaire">
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" placeholder="Nom...">
-            </div>
-            <div class="case__formulaire">
-                <label for="nom">E-mail :</label>
-                <input type="text" id="email" name="email" placeholder="Email...">
-            </div>
-            <div class="case__formulaire">
-                <label for="nom">Objet :</label>
-                <input type="text" id="objet" name="objet" placeholder="Sujet...">
-            </div>
-            <div class="case__formulaire-down">
-                <label class="message" for="nom">Message :</label>
-                <textarea name="message" id="message" placeholder="Ecrivez-ici votre message..."></textarea>
-            </div>
-
-
-        </form>
-        <input class="button envoyer-btn" type="submit" value="Envoyer">
-
-    </section>
-
-    </main>
-
-
     <footer class="footer">
         <ul class="footer__container-page">
             <li class="footer__item">

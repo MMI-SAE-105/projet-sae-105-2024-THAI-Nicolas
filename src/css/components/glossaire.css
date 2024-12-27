@@ -42,6 +42,7 @@
 
 .glossaire__pagination {
     font-size: 20px;
+    color: var(--brown);
 }
 
 .glossaire__pagination--main {
