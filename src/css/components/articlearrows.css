@@ -1,0 +1,29 @@
+.article__arrows-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 7px;
+}
+
+.article__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article__arrow-img-previous {
+    rotate: 180deg;
+}
+
+.article__arrow-text {
+    font-size: 18px;
+    font-family: var(--font-family-flint);
+    color: var(--brown);
+    position: relative;
+    top: 20px;
+}
+
+.article__arrow-img {
+    width: 135px;
+}

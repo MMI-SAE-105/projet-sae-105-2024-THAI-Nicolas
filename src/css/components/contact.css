@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .contact__coordonnees {
@@ -10,7 +11,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+}
+
+.contact__coordonnees:not(:first-of-type) {
+    margin-top: 30px;
 }
 
 .main-contact__title {
@@ -31,7 +35,7 @@
     width: 175px;
     height: 70px;
     padding-inline: 12px;
-    margin-top: 20px;
+    margin-top: 0;
     font-size: 12px;
     background-color: var(--brown);
     color: var(--white);

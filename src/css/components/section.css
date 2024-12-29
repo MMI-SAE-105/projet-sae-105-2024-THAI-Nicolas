@@ -49,6 +49,10 @@ section,
     color: black;
 }
 
+.section__intro--livre-article {
+    background-image: url(/assets/img/time-machine-book-cover.webp);
+}
+
 .section__background-color {
     background-color: var(--background);
     padding-bottom: 33px;

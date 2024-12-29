@@ -32,10 +32,13 @@
 .article__img-chasse {
     width: 250px;
     margin-top: 50px;
+    margin-right: 25px;
 }
 
 .article__img-dodo {
     width: 90px;
+    margin-block: 15px;
+    margin-left: 20px;
 }
 
 .article__img-famille {
@@ -46,4 +49,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.article__img-loverobot {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.introduction__legende-video {
+    margin-bottom: 5px;
+}
+
+.article__cover {
+    width: 53px;
+    position: relative;
+}
+
+.article__jaws-img {
+    top: 50px;
+    right: 30px;
+}
+
+.article__jurassic-img {
+    bottom: 50px;
+    left: 30px;
+}
+
+.article__img-masks {
+    width: 85px;
+    margin-right: 20px;
 }
