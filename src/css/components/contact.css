@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .contact__coordonnees {
@@ -54,6 +54,8 @@
     display: flex;
     justify-content: center;
     gap: 70px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .social-media__img {

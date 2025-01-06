@@ -59,6 +59,10 @@ h3 {
     margin-block: 20px;
 }
 
+.header--title-small {
+    font-size: 28px;
+}
+
 .section__article-title {
     font-size: 17px;
     font-weight: 600px;
@@ -69,6 +73,12 @@ h3 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.article__title-bottom-position {
+    position: relative;
+    top: 200px;
+    margin-bottom: 20px;
 }
 
 .article__conclusion {

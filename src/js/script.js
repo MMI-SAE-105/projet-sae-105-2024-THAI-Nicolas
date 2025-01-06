@@ -5,6 +5,7 @@ const closeBtn = document.querySelector(".menu__closebtn");
 const toggleLang = document.querySelector(".header__end--langbtn");
 const navLang = document.querySelector(".lang");
 
+//Pour le Menu principale et le menu langue//
 toggle.addEventListener("click", () => {
     const isOpen = toggle.ariaExpanded === "true";
     const isClosed = !isOpen;
@@ -37,3 +38,7 @@ toggleLang.addEventListener("click", () => {
         bodyLang.classList.add("noscroll");
     }
 })
+
+//Pour le barre de recherche du glossaire//
+const definitions = ["Autonomie", "Biomasse", "Dystopie", "Entité Divine", "IA", "Cueillette", "Offrandes", "Préhistoire"];
+

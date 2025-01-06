@@ -90,8 +90,9 @@
             <form class="search-form" action="/search" method="get" role="search">
 
                 <div class="form__position-center">
-                    <input class="form__search-bar" type="text" placeholder="Rechercher un mot..."
+                    <input class="form__search-bar" id="search" type="text" placeholder="Rechercher un mot..."
                         aria-label="Rechercher un mot dans le glossaire">
+                    <ul class="suggestions" id="suggestions"></ul>
                 </div>
                 <button class="form__search-button" type="submit">
                     <img class="form__search-img" src="/assets/icones/search.webp" alt="Loupe de recherche"

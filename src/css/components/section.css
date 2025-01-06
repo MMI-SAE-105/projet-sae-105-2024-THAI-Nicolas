@@ -46,11 +46,14 @@ section,
 
 .section__intro--spielberg-article {
     background-image: url(/assets/img/steven-spielberg.webp);
-    color: black;
 }
 
 .section__intro--livre-article {
     background-image: url(/assets/img/time-machine-book-cover.webp);
+}
+
+.section__intro--music-article {
+    background-image: url(/assets/img/the-robots.webp);
 }
 
 .section__background-color {
