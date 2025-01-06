@@ -92,10 +92,10 @@ button,
     color: var(--black);
 }
 
-.autres-projets__arrow {
-    border: none;
-    background-color: transparent;
-    box-shadow: none;
-    position: relative;
-    top: -100px;
+.autres-projets__arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3875px;
 }

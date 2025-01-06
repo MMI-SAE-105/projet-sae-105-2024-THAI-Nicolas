@@ -12,7 +12,18 @@
 
 .autres-projets__left-arrow {
     rotate: 180deg;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
 }
+
+.autres-projets__right-arrow {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
 
 
 .introduction__legende-img,
