@@ -39,6 +39,33 @@ toggleLang.addEventListener("click", () => {
     }
 })
 
+//Pour le carousel de la section "Autres projets"//
+const carousel = document.querySelector(".autres-projets__flexbox");
+const prevButton = document.querySelector(".autres-projets__left-arrow");
+const nextButton = document.querySelector(".autres-projets__right-arrow");
+
+
+
+if (carousel) {
+    const premierItem = document.querySelector(".autres-projets__container");
+    const scrollAmount = premierItem.clientWidth;
+
+    prevButton.addEventListener("click", () => {
+        carousel.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+    });
+
+    nextButton.addEventListener("click", () => {
+        carousel.scrollBy({ left: +scrollAmount, behavior: "smooth" });
+    });
+
+
+
+
+}
+
+
+
+
 //Pour le barre de recherche du glossaire//
 const definitions = ["Autonomie", "Biomasse", "Dystopie", "Entité Divine", "IA", "Cueillette", "Offrandes", "Préhistoire"];
 
