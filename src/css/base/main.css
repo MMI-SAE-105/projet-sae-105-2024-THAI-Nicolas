@@ -83,6 +83,8 @@ h3 {
 .article__conclusion {
     font-weight: 400;
     color: var(--dark-brown);
+    margin-bottom: 0;
+    padding-bottom: 40px;
 }
 
 .section__intro--date {
@@ -246,4 +248,10 @@ h3 {
     width: 220px;
     position: relative;
     left: -24px;
+}
+
+.section__frise--title {
+    color: var(--white);
+    font-size: 24px;
+
 }

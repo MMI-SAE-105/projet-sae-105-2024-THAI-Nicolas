@@ -73,3 +73,9 @@ section,
     margin-bottom: 50px;
     border-radius: 4px;
 }
+
+.section__frise {
+    background-color: var(--brown);
+    color: white;
+    padding: 20px;
+}
