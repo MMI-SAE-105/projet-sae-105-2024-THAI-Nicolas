@@ -8,14 +8,17 @@
     margin-top: 20px;
     font-size: 65px;
     text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .the {
     font-size: 28px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .caves {
     font-size: 76px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .section__hero--question {
