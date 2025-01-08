@@ -46,7 +46,6 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 80px;
 }
 
 .menu__social:hover {
@@ -72,8 +71,8 @@
 }
 
 .menu__closebtn {
-    position: absolute;
-    right: 0;
+    position: relative;
+    left: 60%;
     border: none;
     background-color: transparent;
     box-shadow: none;
