@@ -65,3 +65,15 @@
     left: 85%;
     top: 10px;
 }
+
+.footer__div-author {
+    position: relative;
+    top: 50px;
+    left: 2%;
+    width: 100px;
+}
+
+.footer__author-text {
+    color: var(--white);
+    font-size: 10px;
+}

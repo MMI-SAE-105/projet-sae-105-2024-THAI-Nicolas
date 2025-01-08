@@ -3,6 +3,10 @@ body {
     width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-family-text);
 }

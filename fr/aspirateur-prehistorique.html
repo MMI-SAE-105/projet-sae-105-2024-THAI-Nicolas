@@ -19,7 +19,7 @@
         <header class="header">
 
             <div class="header__start">
-                <a class="header__start--logolink" href="/index.html" aria-label="Accéder à la page d'accueil">
+                <a class="header__start--logolink" href="/fr/index.html" aria-label="Accéder à la page d'accueil">
                     <img class="header__start--logoimg" src="/assets/icones/logo-caves-cleaner.webp"
                         alt="Logo CavesCleaner">
                 </a>
@@ -35,12 +35,12 @@
                 <nav class="lang" id="langNav">
                     <ul>
                         <li class="lang__item">
-                            <a class="lang__link" href="">Français</a>
+                            <a class="lang__link" href="">FR</a>
                             <img class="lang__flag-img" src="/assets/icones/french-flag.webp" alt="Drapeau Français"
                                 aria-label="Mettre la langue en français">
                         </li>
                         <li class="lang__item">
-                            <a class="lang__link" href="">Anglais</a>
+                            <a class="lang__link" href="/en/the-cavescleaner.html">EN</a>
                             <img class="lang__flag-img" src="/assets/icones/english-flag.webp" alt="Drapeau Anglais"
                                 aria-label="Mettre la langue en anglais">
                         </li>
@@ -55,15 +55,16 @@
                 </button>
                 <nav class="menu" id="mainNav">
                     <button class="menu__closebtn" aria-expanded="false" aria-label="Fermer le menu">
-                        Fermer
+                        <img class="menu__close-img" src="/assets/icones/cross.webp"
+                            alt="Deux lances qui forment une croix">
                     </button>
-                    <ul>
+                    <ul class="menu__list">
                         <li class="menu__item">
                             <a class="menu__link" href="/fr/aspirateur-prehistorique.html">L'aspirateur
-                                Préhistorique</a>
+                                Prehistorique</a>
                         </li>
                         <li class="menu__item">
-                            <a class="menu__link" href="/fr/page-wall-e.html">Le Robot Déserteur</a>
+                            <a class="menu__link" href="/fr/page-wall-e.html">Le Robot Deserteur</a>
                         </li>
                         <li class="menu__item">
                             <a class="menu__link" href="/fr/page-steven-spielberg.html">Steven Spielberg</a>
@@ -79,6 +80,38 @@
                         </li>
                         <li class="menu__item">
                             <a class="menu__link" href="/fr/page-glossaire.html">Glossaire</a>
+                        </li>
+                    </ul>
+
+                    <ul class="menu__social-list">
+                        <li class="menu__social-item">
+                            <a class="menu__social-link" href="https://www.instagram.com/mmi_montbeliard/"
+                                target="_blank" aria-label="Suivez moi sur Instagram">
+                                <img class="menu__social-img" src="/assets/icones/instagram.webp" alt="Icone">
+                            </a>
+
+                        </li>
+
+                        <li class="menu__social-item">
+                            <a class="menu__social-link" href="https://www.linkedin.com/in/nicolas-thai-21539a294/"
+                                target="_blank" aria-label="Suivez moi sur Linkedin">
+                                <img class="menu__social-img linkedin-img" src="/assets/icones/white-linkedin.webp"
+                                    alt="">
+                            </a>
+                        </li>
+
+                        <li class="menu__social-item">
+                            <a class="menu__social-link" href="https://www.tiktok.com/@mmi_montbeliard" target="_blank"
+                                aria-label="Suivez moi sur Tiktok">
+                                <img class="menu__social-img" src="/assets/icones/tiktok.webp" alt="">
+                            </a>
+                        </li>
+
+                        <li class="menu__social-item">
+                            <a class="menu__social-link" href="https://discord.com/" aria-label="Suivez moi sur Discord"
+                                target="_blank">
+                                <img class=" menu__social-img" src="/assets/icones/discord.webp" alt="">
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -414,7 +447,7 @@
 
             <div class="article__arrow">
                 <p class="article__arrow-text article__arrow-text--frise">Article suivant</p>
-                <a class="article__arrow-next" href="/fr/page-steven-spielberg.html">
+                <a class="article__arrow-next" href="/fr/page-wall-e.html" aria-label="Accéder à l'article suivant">
                     <img class="article__arrow-img" src="/assets/icones/lance.webp"
                         alt="Image d'une lance tournée vers la droite">
                 </a>
@@ -433,10 +466,10 @@
                 <a class="footer__link" href="/fr/page-glossaire.html">Glossaire</a>
             </li>
             <li class="footer__item">
-                <a class="footer__link" href="/index.html#about">A propos</a>
+                <a class="footer__link" href="#about">A propos</a>
             </li>
             <li class="footer__item">
-                <a class="footer__link" href="/index.html#autres-projets">Autres projets</a>
+                <a class="footer__link" href="#autres-projets">Autres projets</a>
             </li>
         </ul>
 
@@ -468,12 +501,17 @@
         </p>
         <a class="footer__mailto" href="mailto:nicolas.thai@edu.univ-fcomte.fr" target="_blank"
             aria-label="M'envoyez un e-mail">nicolas.thai@edu.univ-fcomte.fr</a>
+        <div class="footer__div-author">
+            <p class="footer__author-text">NICOLAS THAI</p>
+            <p class="footer__author-text">GROUPE C2</p>
+        </div>
         <a class="footer__logo-mmi--link"
             href="https://dossier.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=3587"
-            aria-label="Se renseigner sur ma formation MMi à Montbéliard">
+            target="_blank" aria-label="Se renseigner sur ma formation MMi à Montbéliard">
             <img class="footer__logo-mmi--img" src="/assets/icones/logo-mmi.webp"
                 alt="Logo Département MMI Montbéliard">
         </a>
+
     </footer>
 </body>
 

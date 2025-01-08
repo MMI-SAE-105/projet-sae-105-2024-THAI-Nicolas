@@ -5,6 +5,7 @@ section,
 }
 
 .section__hero,
+.section__articles,
 .section__intro--page-article {
     padding-left: 0;
     padding-right: 0;
@@ -16,8 +17,10 @@ section,
 }
 
 .section__articles {
-    background-color: var(--background);
-    padding-block: 20px;
+    padding-top: 15px;
+    background-color: var(--brown);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 .section__about {
