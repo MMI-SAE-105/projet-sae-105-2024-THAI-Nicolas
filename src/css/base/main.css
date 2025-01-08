@@ -163,6 +163,14 @@ h3 {
     gap: 25px;
 }
 
+.about__intro--left {
+    flex: 1;
+}
+
+.about__intro--right {
+    flex: 1;
+}
+
 .section__about--title {
     margin: 0;
 }
@@ -200,7 +208,7 @@ h3 {
     text-align: center;
     width: 270px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 20px;
 }
 

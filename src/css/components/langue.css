@@ -1,8 +1,25 @@
 .lang {
     visibility: hidden;
-    position: fixed;
+    position: absolute;
     top: 70px;
-    margin-left: 12px;
+    margin-left: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    transition: max-height 0.3s ease-out;
+}
+
+.lang__item {
+    cursor: pointer;
+}
+
+.lang__link {
+    font-size: 14px;
+
+}
+
+.lang__item:hover {
+    background-color: rgb(214, 214, 214);
 }
 
 .lang[aria-hidden="false"] {

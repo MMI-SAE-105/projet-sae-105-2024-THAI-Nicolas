@@ -11,6 +11,10 @@
     margin-bottom: 50px;
 }
 
+.intro__left {
+    width: 75%;
+}
+
 .intro__container:first-child {
     margin-bottom: 40px;
 }
@@ -42,13 +46,13 @@
 .first__intro-title {
     position: relative;
     top: 15px;
-    right: 5px;
+    right: 5%;
 }
 
 .second__intro-title {
     position: relative;
     top: 15px;
-    left: 110px;
+    left: 23%;
 }
 
 .button__intro-left {

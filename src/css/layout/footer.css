@@ -62,6 +62,6 @@
 .footer__logo-mmi--img {
     width: 50px;
     position: relative;
-    right: -330px;
+    left: 85%;
     top: 10px;
 }

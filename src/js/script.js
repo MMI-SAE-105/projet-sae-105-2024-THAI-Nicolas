@@ -31,12 +31,7 @@ toggleLang.addEventListener("click", () => {
     console.log("isOpen : ", isOpen, "isClosed : ", isClosed);
     navLang.ariaHidden = isOpen;
     toggleLang.ariaExpanded = isClosed;
-    if (isOpen) {
-        bodyLang.classList.remove("noscroll");
-    }
-    else {
-        bodyLang.classList.add("noscroll");
-    }
+
 })
 
 //Pour le carousel de la section "Autres projets"//

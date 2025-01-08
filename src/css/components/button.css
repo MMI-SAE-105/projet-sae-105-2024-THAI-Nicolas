@@ -13,7 +13,6 @@ button,
     border: none;
     line-height: normal;
     font-style: normal;
-    transition: all 0.15s;
 }
 
 
@@ -26,6 +25,12 @@ button,
 .button__position-start {
     display: flex;
     justify-content: start;
+    align-items: center;
+}
+
+.button__position-end {
+    display: flex;
+    justify-content: end;
     align-items: center;
 }
 
@@ -50,7 +55,6 @@ button,
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: underline 1s;
 }
 
 .langbtn-changecolours {
@@ -68,7 +72,7 @@ button,
     font-size: 16px;
     font-weight: 750;
     border-radius: 38px;
-    transition: all 0.15s;
+
 }
 
 .section__hero--btn:hover {
@@ -96,6 +100,6 @@ button,
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 3875px;
+    position: relative;
+    top: -100px;
 }

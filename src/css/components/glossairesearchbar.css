@@ -12,13 +12,13 @@
     border: none;
     box-shadow: none;
     background-color: transparent;
-    position: absolute;
-    top: 220px;
-    left: 57px;
+    position: relative;
+    left: 15%;
+    top: -40px;
 }
 
 .form__search-bar {
-    width: 190px;
+    width: 50%;
     border-radius: 32px;
     border: 1px solid var(--brown);
     background: transparent;

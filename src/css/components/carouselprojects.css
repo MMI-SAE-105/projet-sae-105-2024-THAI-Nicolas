@@ -1,5 +1,4 @@
 .autres-projets__flexbox {
-    margin-top: 100px;
     display: flex;
     gap: 20px;
     overflow-x: auto;
@@ -68,49 +67,11 @@
     position: relative;
     font-size: 20px;
     font-family: Flintstone;
-    top: -120px;
-}
-
-.andrea-title {
     top: -80px;
-    left: 100px;
-    color: white;
-    font-size: 16px;
+    left: 10px;
+    color: var(--dark-brown);
 }
 
-.noah-title {
-    left: 40px;
-}
-
-.ethan-title {
-    left: 80px;
-    color: white;
-}
-
-.arthur-title {
-    left: 70px;
-}
-
-.gautier-title {
-    left: 115px;
-}
-
-.titouan-title {
-    left: 80px;
-    color: white;
-}
-
-.antonin-title {
-    left: 85px;
-    color: white;
-}
-
-.francois-title {
-    left: 3px;
-    color: white;
-}
-
-.paolo-title {
-    left: 110px;
+.white-title {
     color: white;
 }
